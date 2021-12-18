@@ -1,0 +1,19 @@
+{
+    "name": "tilson/mvcrout",
+    "description": "Uma estrutura MvC muito simples,Com Query String",
+    "type": "project",
+    "authors": [
+        {
+            "name": "TilsonM17",
+            "email": "tilsonmat@gmail.com"
+        }
+    ],
+    "autoload" :{
+        "psr-4" : {
+            "src\\" : "src"
+        },"files":[
+            "config.php"
+        ]
+    },
+    "require": {}
+}
