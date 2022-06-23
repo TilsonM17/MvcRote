@@ -21,7 +21,21 @@ O projecto esta dividido em:
  - **index.php** : Arquivo principal do projecto.Toda request passa por ele
 
  ## Como usar?
-  
+
+  Inicie o projecto com o comando para gerar o autoload do composer.
+
+      composer install
+  Depois execute o seguinte comando, para inicar o servidor embutido do php
+
+    php spark
+
+Isso ira inicar um servidor na porta 3000 abra no endereço [http://localhost:3000/](http://localhost:3000/), e teras uma imagem similara esta.
+
+![Imagem da Tela inical](assetsReadme/img.png)
+
+Esteja a vontade para eleiminar e expandir.
+
+
   Para adiçionar uma nova rota,abra o index.php,tem uma array semelhante:
       
        $rotas = [
@@ -34,16 +48,13 @@ O projecto esta dividido em:
   ele vai pegar o Controlador **Main** e vai procurar o methodo **Sobre** 
   ,na query string ficara:
 
-  >http://MvcRout.com/?k=sobre
+  >http://localhost:3000/?k=sobre
   >
   >**Nota:** O parametro "k" é obrigatorio.
 
   No controlador Main propriamente no methodo sobre, temos o seguinte codigo:
 
-    //namespace
-
-    use src\helpers\Views;
-        .........
+   
      public function sobre()
     {
         echo "Estou no sobre";

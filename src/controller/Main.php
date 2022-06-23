@@ -9,16 +9,11 @@ class Main
 
     public function index()
     {
-        Views::layout(
-            ['fragmento/header',
-            'inicio',
-            'fragmento/footer',
-            ]);
-
+        Views::layout(['home']);
     }
     public function sobre()
     {
-        
+        echo "sobre";
     }
 
 }
