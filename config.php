@@ -1,3 +1,3 @@
 <?php
 
-define("NAME","MCVRotas");
+define("NAME","StructMVC - Tilson");
