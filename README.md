@@ -1,4 +1,4 @@
-# MvC com Query String 
+# Estrutura Basica para Projetos PHP
 
 Se esta a começar a estudar agora padrão de projecto,sem duvida ja se deve ter deparado com o padrão MVC.Este projecto vai ajudar voçê a trabalhar com arquitetura MvC de maneira facil e rapida. Usando query Strings,vai te dar os primeiros passos com MVC
 
